@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Have a new affair</h1>
+
+	<%= form_for @affair do |f|%>
+
+	<%= f.text_field :name, placeholder: 'Name' %> </br>
+	<%= f.text_field :location, placeholder: 'Location' %> </br>
+	<%= f.submit %>
+	<%end%>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS cheeses;
+
+CREATE TABLE cheeses(
+  id serial PRIMARY KEY,
+  name VARCHAR(255),
+  sharpness INTEGER,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

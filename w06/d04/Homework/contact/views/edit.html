@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1> Edit Contact: <%= contactname %> </h1>
+  <form method="POST" action="/contacts/<%= id %>?_method=PUT">
+    New Name:
+    <input type="text" name="contactname" value=<%=contactname%> >
+    New Age:
+    <input type="text" name="contactage" value=<%=contactage%> >
+    New: Email
+    <input type="text" name="contactemail" value=<%=contactemail%> >
+    <input type="submit">
+  </form>
+</body>
+</html>

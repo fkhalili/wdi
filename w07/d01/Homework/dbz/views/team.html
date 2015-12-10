@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>DBZ</title>
+</head>
+<body>
+	<% if (rows[0].team_id === 1) {%>
+		<h1>Good Guys</h1>
+	<%}%>
+	<% if (rows[0].team_id === 2) {%>
+		<h1>Bad Guys</h1>
+	<%}%>
+
+	<% rows.forEach(function(character) { %>
+		<ul>
+			<a href="/dbz/<%=character.id%>"><li><%=character.name%></li></a>
+		</ul>
+
+	<% }) %>
+	<a href="/dbz">Return</a>
+</body>
+</html>

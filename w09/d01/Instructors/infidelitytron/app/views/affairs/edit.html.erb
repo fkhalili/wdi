@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1> HERE IS THE EDIT FORM </h1>
+
+  <%= form_for @affair do |f| %>
+    <%= f.text_field :name, placeholder: 'name' %> <br>
+    <%= f.text_field :location, placeholder: 'location ' %>
+    <%= f.submit %>
+  <% end %>
+</body>
+</html>

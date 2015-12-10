@@ -1,0 +1,16 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "Write an Express server which renders a form when the user navigates to `/letters/new`. The form should take a name, an address, a date, and a letter. Your app should be able to:",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.2"
+  }
+}

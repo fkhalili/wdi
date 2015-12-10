@@ -1,0 +1,63 @@
+body {
+  background: url('../img/rainbow-bg.jpg');
+  background-size: auto;
+
+}
+
+.pure-menu-item{
+  padding: .5em;
+}
+
+nav {
+  text-align: center;
+  padding: 0.5em;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  display:inline-block;
+  padding: 0.5em 1em;
+  margin: 0;
+}
+nav ul li:hover {
+  background: #ededed;
+}
+.pure-g{
+  background: #fff;
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  border-bottom: 5px solid #369;
+}
+.header h1 {
+  margin: 1.5em;
+  font-family: 'Cabin Sketch', cursive;
+}
+.round {
+  background: url('../img/kitten-7.jpg');
+  background-size: cover;
+  border-radius: 50%;
+  max-width: 90%;
+  /* setting the height up with padding woah weird */
+  padding: 45% 10%;
+  margin: 2em 1em;
+}
+.list-content {
+  padding: 1em 1.5em;
+}
+footer {
+  text-align: center;
+}
+.cat-logo {
+  background: url('../img/blackcat.jpg');
+  background-size: contain;
+  height: 47px;
+  width: 50px;
+  margin: 0 auto;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Thanks for signing up ! Create an account below so we can safely, securely and calmly store your discretions </h1>
+
+  <%= form_for @user do |f| %>
+    Enter your email
+    <%= f.text_field :email %>
+    Enter your password
+    <%= f.password_field :password %>
+    <%= f.submit "create account" %>
+  <% end %>
+  
+</body>
+</html>

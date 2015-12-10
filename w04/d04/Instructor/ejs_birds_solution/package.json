@@ -1,0 +1,14 @@
+{
+  "name": "ejs_birds_solution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "birds_sample_solution.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.3"
+  }
+}

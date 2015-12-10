@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js">
+	</script>
+</head>
+<body>
+	<h1 class="header-one">Hello</h1>
+
+
+</body>
+	<script>
+		console.log("hello")
+		var x = $(".header-one").text();
+		
+		var button = $("<button>")
+		button.id = "submit";
+		$("body").append(button)
+
+		button.click(function() {
+    	alert("Ow MY EYE")
+    	});
+
+    	$("body").keypress(function() {
+		alert("worked");
+		});
+
+		button.hover(function() {
+		console.log("help");
+		});
+
+		button.click(function() {
+			var ing = $("<img src= 'http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg'>");
+			$("body").append(ing);
+		});
+
+		$("img").click(function() {
+			event.target.remove;
+		});
+
+	</script>
+</html>

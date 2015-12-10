@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <!-- <link rel = "stylesheet" type = "text/css" href = "/css/styles.css"> -->
+  </head>
+  <body>
+    <div>
+    <header>
+      <h1>Things I have to do:</h1>
+    </header>
+    <!-- <div class="lines"></div> -->
+    <ul class = "list">
+    <% @items_list.each do |item| %>
+      <li>
+        <a href="/items/<%= item.id %>" style = "color: <%= item.category %>"><%= item.name %></a>
+        <form action = "/items/<%= item.id %>/edit" class = "edit-form">
+          <button>Edit</button>
+        </form>
+
+      <form action="/items/<%= item.id %>" method="post" class = "delete-form">
+        <input type="hidden" name="_method" value="delete">
+        <button>Delete</button>
+      </form>
+
+      </li>
+    <% end %>
+    </ul>
+    <a href = "/items/new">Add Item</a>
+    </div>
+  </body>
+</html>

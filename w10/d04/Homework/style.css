@@ -1,0 +1,20 @@
+/*#play {
+	width:500px;
+	height:200px;
+	font-size: 100px;
+}*/
+
+.background {
+	background-image: url("./img/Beach.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+
+header {
+	border:5px solid black;
+	height:70px;
+}
+

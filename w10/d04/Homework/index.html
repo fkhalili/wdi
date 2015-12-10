@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Where's Waldo?</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js">
+	</script>
+</head>
+<body>
+
+
+</body>
+
+	<header>
+		<button>Go</button>
+	<button id="play">Play</button>
+	<img id="waldo" src="./img/waldo.png">
+	<img id="woof" src="./img/woof.png">
+	<img id="fritz" src="./img/fritz.png">
+	<img id="sung" src="./img/sung.png">
+	<img id="paul" src="./img/paul.png">
+
+	</header>
+	<div class="background">
+
+
+
+
+	</div>
+
+
+
+	<script>
+		play = $("#play");
+
+		waldo = $("#waldo");
+		woof = $("#woof");
+		fritz = $("#fritz");
+		sung = $("#sung");
+		paul = $("#paul");
+
+
+		var start = function start() {
+
+		}
+
+		play.click(function(){
+			play.toggle()
+			$(".background").append(waldo)
+			waldo.attr("margin", "60px", "40px", "300px", "100px")
+		});
+		// console.log("hello")
+		// var x = $(".header-one").text();
+		
+		// var button = $("<button>")
+		// button.id = "submit";
+		// $("body").append(button)
+
+		// button.click(function() {
+  //   	alert("Ow MY EYE")
+  //   	});
+
+  //   	$("body").keypress(function() {
+		// alert("worked");
+		// });
+
+		// button.hover(function() {
+		// console.log("help");
+		// });
+
+		// button.click(function() {
+		// 	var ing = $("<img src= 'http://www.keenthemes.com/preview/metronic/theme/assets/global/plugins/jcrop/demos/demo_files/image1.jpg'>");
+		// 	$("body").append(ing);
+		// });
+
+		// $("img").click(function() {
+		// 	event.target.remove;
+		// });
+
+	</script>
+</html>

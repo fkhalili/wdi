@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PenguinPals</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+  <!-- Templates -->
+  <script type="text/template" id='penguin-template'>
+      <p> My name is <%%= name %> the penguin </p>
+      <button data-action='destroy'>
+          Delete
+      </button>
+      <button data-action="edit">
+          Edit
+      </button>
+  </script>
+
+  <script type="text/template" id="penguin-edit-template">
+      <form>
+          <input type="text" placeholder="<%%= name %>">
+      </form>
+      <button data-action="cancel">
+          Cancel
+      </button>
+  </script>
+  
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+
+</head>
+<body>
+
+<%= yield %>
+
+
+
+
+</body>
+</html>

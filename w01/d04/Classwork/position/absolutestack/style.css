@@ -1,0 +1,44 @@
+
+
+.box{
+  height: 100px;
+  width: 100px;
+}
+
+.blue{
+  position:absolute;
+  display:block;
+  background-color: blue;
+  left:5px;
+  top:5px;
+}
+
+.yellow{
+  position:absolute;
+  display:block;
+  background-color: yellow;
+  left:10px;
+  top:10px;
+}
+
+.orange{
+  position:absolute;
+  display:block;
+  background-color: orange;
+}
+
+.pink{
+  position:absolute;
+  display:block;
+  left:15px;
+  top:15px;
+  background-color: pink;
+}
+
+
+#container{
+  border: 1px solid black;
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+}

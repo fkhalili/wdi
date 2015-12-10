@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Movies</title>
+	<style>
+	body {
+		background-image: url("http://theartmad.com/wp-content/uploads/2015/04/Film-Roll-Background-Vintage-4.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+ 
+	}
+
+	article {
+		position:relative;
+		margin-left: 45%;
+		width:250px;
+	}
+	</style>
+</head>
+<body>
+	<article>
+	<img src=<%=poster%> heigth="100" width="200">
+	<h1><%=title%></h1>
+	<h3>Show Times: <h3>
+	<form method="POST" action="/movies/<%= id %>?_method=PUT">
+		<input type="text" name="time" value="11:30 | 12:30 | 1:00">
+		<input type="submit">
+	<form>
+
+	</article>
+</body>
+</html>

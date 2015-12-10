@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Fruit</title>
+</head>
+<body>
+  <h1> edit fruit: <%=type%> </h1><br>
+  <form method="POST" action="/fruits/<%= id %>?_method=PUT">
+    type:
+    <input type="text" name="type" value=<%=type%>><br>
+    color:
+    <input type="text" name="color" value=<%=color%>><br>
+    quantity:
+    <input type="text" name="quantity" value=<%=quantity%>><br>
+    harvest date:
+    <input type="text" name="date" value=<%=date%>><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

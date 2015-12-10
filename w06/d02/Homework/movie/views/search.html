@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Movies</title>
+	<style>
+	body {
+		background-image: url("http://theartmad.com/wp-content/uploads/2015/04/Film-Roll-Background-Vintage-4.jpg");
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+ 
+	}
+
+	article {
+		position:relative;
+		margin-left: 45%;
+		width:250px;
+	}
+		
+	</style>
+</head>
+<body>
+	<article>
+	<img src=<%=poster%> heigth="100" width="200">
+	
+	<h1><%=title%></h1>
+	<ul>
+		<li>year: <%=year%></li>
+	</ul>
+	
+	<form method="POST" action="/movies">
+		<input type="submit" value="Add Movie">
+	</form>
+	<a href="/movies">Cancel</a>
+	</article>
+</body>
+</html>

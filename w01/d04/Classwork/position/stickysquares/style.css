@@ -1,0 +1,41 @@
+
+
+.box{
+  height: 100px;
+  width: 100px;
+}
+
+.blue{
+  position:fixed;
+  background-color: blue;
+  left:50px;
+  top: 50px;
+
+}
+
+.yellow{
+  position:fixed;
+  background-color: yellow;
+  left:100px;
+  top: 100px;
+}
+
+.orange{
+  position:fixed;
+  background-color: orange;
+}
+
+.pink{
+  position:fixed;
+  background-color: pink;
+  left:150px;
+  top: 150px;
+}
+
+
+#container{
+  border: 1px solid black;
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+}

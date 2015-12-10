@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+  </head>
+  <body>
+    <% birds.forEach(function(bird){ -%>
+      <article class="bird">
+        <h2>
+          <%= bird.name %>
+        </h2>
+        <p>
+          Species: <%= bird.species %>
+        </p>
+        <p>
+          Sex: <%= bird.sex %>
+        </p>
+        <p>
+          Feathered: <%= bird.hasFeathers %>
+        </p>
+        <p>
+          Diet:
+        </p>
+        <ul>
+          <% bird.diet.forEach(function(food){ -%>
+            <li>
+              <%= food %>
+            </li>
+          <% }); -%>
+        </ul>
+      </article>
+    <% }); -%>
+  </body>
+</html>

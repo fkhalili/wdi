@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Fruit</title>
+</head>
+<body>
+	<h1><%=type%></h1>
+		
+		<h3>color: <%=color%></h3>
+		<h3>quantity: <%=quantity%></h3>
+		<h3>harvest date: <%=date%></h3>
+ 		
+ 		<a href="/fruits/<%=id%>/edit"> Edit this fruit </a>
+
+ 		<form method="POST" action="/fruits/<%=id%>?_method=DELETE">
+    		<input type="submit" value="delete">
+  		</form>
+
+</body>
+</html>

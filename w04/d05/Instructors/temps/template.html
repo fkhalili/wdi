@@ -1,0 +1,10 @@
+<% augustine.forEach(function(e){ %>
+  <% if (e.artist === "Taylor Swift"){ %>
+      <h1 style="color:red;"> <%= e.artist %> </h1>
+      <h2 style="color:red;"> <%= e.title %> </h2>
+
+  <%   } else {  %>
+      <h4> <%= e.artist %> </h4>
+      <h4> <%= e.title %> </h4> 
+  <% } %>
+<%  }) %>

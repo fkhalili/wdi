@@ -1,0 +1,29 @@
+{
+  "coffees": [
+    {
+      "id": 1,
+      "name": "Vanilla Latte",
+      "price": 2.5
+    },
+    {
+      "id": 2,
+      "name": "Cappucino",
+      "price": 2
+    },
+    {
+      "id": 3,
+      "name": "Espresso",
+      "price": 1.75
+    },
+    {
+      "id": 4,
+      "name": "Double Espresso",
+      "price": 2.25
+    },
+    {
+      "id": 5,
+      "name": "Sung's Red Bull Special",
+      "price": 4
+    }
+  ]
+}

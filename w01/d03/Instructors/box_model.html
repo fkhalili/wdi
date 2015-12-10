@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Box Model Stuff</title>
+
+  <style>
+    
+    .container {
+      /* Adding a border to our boxes to make them easier to see */
+      border: 1px solid gray;
+      width: 400px;
+      text-align: center;
+      /* Moving our box down on the page a little */
+      margin-top: 30px;
+    }
+    .box {
+      /* Adding a border to our boxes to make them easier to see */
+      border: 1px solid red;
+      width: 25;
+      height: 300px;
+      /* Inline-block displays the div inline, like text, but allows us to set widths and heights, like a block-style element! More on this tomorrow. */
+      display: inline-block;
+      padding: 10px;
+      margin: 0 20px 0 20px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <!-- Container div -->
+  <div class="container">
+    <!-- Our three lovely boxes. All have class of box -->
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Closet</title>
+</head>
+<body>
+	<h1>Closet Home Page</h1>
+
+	<ol>
+		<% data.clothes.forEach(function(cloth) { %>
+		<li><a href="clothes/<%=cloth.id%>"><%=cloth.size%> <%=cloth.color%> <%=cloth.clothing_type%></a></li>
+			<% }) %>
+	</ol>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+<% song.forEach(function(e){ %>
+    <% if (e.artist === "Taylor Swift"){ %>
+        <h2 style="color:red;"> <%= e.artist %> </h2>
+        <h2 style="color:red;"> <%= e.title %> </h2>
+    <% } else { %>
+        <h3> <%= e.artist %> </h3>
+        <h3> <%= e.title %> </h3>
+    <% } %>
+<% }) %>

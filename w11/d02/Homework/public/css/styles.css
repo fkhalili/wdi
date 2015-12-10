@@ -1,0 +1,38 @@
+@font-face {
+	font-family: smb;
+	src: url(./../fonts/new_super_mario_font_u.ttf);
+}
+
+header div {
+	font-family: smb;
+	font-size: 2.5em;
+}
+
+body {
+  background-color: #049372;
+  text-align: center;
+	color: #ecf0f1;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#addCharacterForm button {
+	color: rgba(44, 62, 80,1.0);
+}
+
+
+ul {
+	width: 800px;
+	overflow-x: inherit;
+}
+
+li {
+	border: 1px solid rgba(189, 195, 199, 1);
+	background-color: rgba(189, 195, 199, .8);
+	color: rgba(44, 62, 80,1.0);
+	padding: 10px;
+	float: left;
+	margin: 70px;
+	/*display: inline;*/
+	/*width: 50px;*/
+	font-size: 1.2em;
+}

@@ -1,0 +1,14 @@
+{
+  "teams": [
+    {
+      "name": "Red Sox",
+      "hometown": "Boston",
+      "id": 1
+    },
+    {
+      "name": "Yankees",
+      "hometown": "New York",
+      "id": 2
+    }
+  ]
+}

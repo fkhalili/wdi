@@ -1,0 +1,17 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "description": "![](http://2.bp.blogspot.com/-0qDTtAVym3U/UyIhIc-CZcI/AAAAAAAAPj4/aLJRrw_UECs/s1600/foster.jpeg)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "method-override": "^2.3.5"
+  }
+}

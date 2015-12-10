@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Movies</title>
+	<style>
+	body {
+		background-image: url("http://m.rgbimg.com/cache1pyJgE/users/b/ba/ba1969/600/mMga7qa.jpg");
+		background-size: 100% 800px;
+		background-repeat: no-repeat;
+	}
+
+	article {
+		position:relative;
+		margin-left: 45%;
+		width:250px;
+	}
+	</style>
+</head>
+<body>
+	<article>
+	<h1>Welcome to Movie Haus</h1>
+
+	<%data.movies.forEach(function(element) { %>
+		<ul>
+			<a href="movies/<%=element.id%>"><li><%=element.title%></li></a>
+				<ul>
+					<li>Movie times: <%=element.time%></li>
+				</ul>
+		</ul>
+		<% }) %>
+
+		<form method="GET" action="/movies/search">
+			<input type ="text" name="search" placeholder="Search Movie Here">
+			<input type="submit">
+		</form>
+
+	</article>
+</body>
+</html>

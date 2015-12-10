@@ -1,0 +1,13 @@
+<html>
+	<body>
+		<h1>WINES</h1>
+			<% wines.forEach(function(wine){ %>
+				<h3><%= wine.studentName %> is fond of <%= wine.faveWine %>, a fine <%= wine.type %> wine.
+        </h3>
+			<% }); %>
+
+			</br>
+			</br>
+		<a href="/wines/new">Create a Wine</a>
+	</body>
+</html>

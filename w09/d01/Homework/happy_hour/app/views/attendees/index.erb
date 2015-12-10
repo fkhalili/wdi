@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Happy Hour </h1>
+  <p> Brought to you by: General Assembly </p>
+
+  <% @attendees.each do |a| %>
+    <a href=<%="/attendees/" + a.id.to_s%>>
+    <h2> <%=a.first_name%>  <%=a.last_name%></h2>
+  <% end %>
+   
+	<a href="/attendees/new">Join the list</a>
+
+</body>
+</html>

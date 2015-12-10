@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Instagram</title>
+</head>
+<body>
+	<h1>Welcome to the Instagram Search</h1>
+		<ul>
+			<% if (data) { %>
+				<%data.forEach(function(element) { %>
+
+			<a href="/instagram/:id"><li><%=element.search%></li></a>
+		<% }) %>
+		<% }%>
+		</ul>
+
+	<form method="GET" action ="./instagram/search">
+		<input type="text" name="search">
+		<input type="submit">
+	</form>
+</body>
+</html>

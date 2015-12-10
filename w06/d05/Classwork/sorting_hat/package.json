@@ -1,0 +1,15 @@
+{
+  "name": "sorting_hat",
+  "version": "1.0.0",
+  "description": "![img](http://www.rhymeswithgeek.com/wp-content/uploads/2014/11/in-a-pivotal-moment-harry-asks-the-sorting-hat-not-to-put-him-in-slytherin.jpg)",
+  "main": "schema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "sqlite3": "^3.0.10"
+  }
+}

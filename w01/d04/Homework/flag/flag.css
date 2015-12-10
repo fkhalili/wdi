@@ -1,0 +1,25 @@
+
+.stars{
+  background:blue;
+  width:380px;
+  height:280px;
+  float:left;
+  position: static;
+}
+
+.stripe{
+  height: 40px;
+}
+
+.red{
+  background-color: red;
+}
+
+.white{
+  background-color: white;
+}
+#container{
+  border: 1px solid black;
+  height: 520px;
+  width: 1000px;
+}

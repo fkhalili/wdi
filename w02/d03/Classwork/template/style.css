@@ -1,0 +1,38 @@
+#headline{
+  font-size: 60px;
+}
+
+.right{
+  float: right;
+}
+
+.left{
+  float: left;
+}
+
+.list-container{
+  padding: 10px;
+  margin: 10px;
+}
+
+.container{
+  width: 1000px;
+  height: 550px;
+  border: 1px dashed black;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.shine{
+  font-family: fantasy;
+  color: pink;
+}
+
+.big{
+  font-size: 100px;
+}
+
+.small{
+  font-size: 10px;
+}

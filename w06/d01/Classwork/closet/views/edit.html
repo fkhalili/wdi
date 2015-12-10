@@ -1,0 +1,17 @@
+<html>
+<head>
+  <title>Closet</title>
+</head>
+<body>
+  <h1> edit article: <%=clothing_type%> </h1><br>
+  <form method="POST" action="/clothes/<%= id %>?_method=PUT">
+    new clothing type:
+    <input type="text" name="clothing_type" value=<%=clothing_type%> ><br>
+    new size:
+    <input type="text" name="size" value=<%=size%> ><br>
+    new color:
+    <input type="text" name="color" value=<%=color%> ><br>
+    <input type="submit">
+  </form>
+</body>
+</html>

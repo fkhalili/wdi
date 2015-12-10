@@ -1,0 +1,13 @@
+[{
+  "amount": 1000,
+  "client_name": "Timmy Two-Time",
+  "id": 1
+}, {
+  "amount": 5000,
+  "client_name": "Tina Toronto",
+  "id": 2
+}, {
+  "amount": 990,
+  "client_name": "Jimmy Babaloni",
+  "id": 3
+}]

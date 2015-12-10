@@ -1,0 +1,38 @@
+<!DOCTYPE>
+
+<html>
+	
+
+	<head>
+	</head>
+
+
+
+
+	<body>
+		<h1>Mailbox</h1><br>
+
+
+
+		<form type="GET" action="/letters/new">
+			<input type="submit">
+		</form>
+
+		<form type="GET" action="/letters:id">
+			<input type="text" name="id">
+			<input type="submit">
+		</form>
+
+
+			<br><% theseLetters.forEach(function(letter) { %>
+				<h2>Letter #<%=letter.id%></h2>
+				<h2>Adress: <%=letter.address%></h2>
+				<h3>Date: <%=letter.date%></h3>
+				<h3>To: <%=letter.name%></h3>
+				<p>- <%=letter.note%> -</p>
+				<% }); %><br>
+	</body>
+
+
+
+</html>

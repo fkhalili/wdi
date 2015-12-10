@@ -1,0 +1,82 @@
+body {
+	background-color: whitesmoke;
+}
+#dead {
+	color: red;
+	background-color: black;
+	font-family:Copperplate Gothic Light, sans-serif;
+}
+header {
+	position: absolute;
+	margin: auto auto auto 400px;
+	font-size: 50px;
+	color: darkviolet;
+}
+.names {
+	float: right;
+
+}
+
+.buttons {
+	border: 10px solid DarkSeaGreen;
+	position: relative;
+	width: 300px;
+	height: 100px;
+	display: block;
+	padding-top: 20px;
+	margin: 30px auto auto auto;
+	text-align: center;
+	background-color: LemonChiffon;
+}
+.secretWord {
+	font-size: 40px;
+}
+
+.guessed {
+	text-align: center;
+	border: 5px solid lightcoral;
+	background-color: LemonChiffon;
+	width: 200px;
+	height: 200px;
+	padding:10px 20px 10px 5px;
+	margin: 10px auto auto auto;
+	position: relative;
+
+}
+.counter {
+	font-size: 100px;
+	font: fantasy;
+	color: midnightblue;
+	border: 5px solid royalblue;
+	background: LemonChiffon;
+	width: 190px;
+	height: 250px;
+	text-align: center;
+
+}
+#hangman7 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage1.png"); 
+}
+#hangman6 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage2.png"); 
+}
+#hangman5 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage3.png"); 
+}
+#hangman4 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage4.png"); 
+}
+#hangman3 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage7.png"); 
+}
+#hangman2 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage8.png"); 
+}
+#hangman1 {
+	background-image:url("http://i382.photobucket.com/albums/oo268/Espeon200/hangman/stage9.png"); 
+}
+#hangman0 {
+	background-image:url("http://i1166.photobucket.com/albums/q606/KittieLovesBlood/HANGMAN/HangMan9_zps2xxtp3vl.png"); 
+	height:200px;
+}
+

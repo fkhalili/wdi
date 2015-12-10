@@ -1,0 +1,32 @@
+<!DOCTYPE>
+
+<html>
+	
+
+	<head>
+	</head>
+
+
+
+
+	<body>
+		<form type="GET" action="/letters">
+			<input type="submit">
+		</form>
+
+		<form type="GET" action="/letters/new">
+			<input type="submit">
+		</form>
+
+
+			<h1>Letter #<%=letterID.id%></h1>
+			<h2>Adress: <%=letterID.address%></h2>
+			<h3>Date: <%=letterID.date%></h3>
+			<h3>To: <%=letterID.name%></h3>
+			<p>- <%=letterID.note%> -</p>
+
+	</body>
+
+
+
+</html>

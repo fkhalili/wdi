@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Contact info </h1>
+  <h2> Name: <%= contactname %> </h2>
+  <h3> Age: <%= contactage %> </h3>
+  <h4> Email: <%= contactemail %> </h4>
+  <a href="/contacts/<%=id%>/edit"> Edit this contact </a>
+  <h3> If you want to delete this contact, you will have to click a button </h3>
+  <form method="POST" action="/contacts/<%=id%>?_method=DELETE">
+    <input type="submit" value="delete me">
+  </form>
+</body>
+</html>

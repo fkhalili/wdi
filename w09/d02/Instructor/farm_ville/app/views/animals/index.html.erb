@@ -1,0 +1,12 @@
+All the Animals on the <%= @farm.name %> farm
+
+<ul>
+  <% @animals.each do |animal| %>
+    <li> 
+      <%=link_to animal.name, animal_path(animal) %>
+    </li>
+  <% end %>
+</ul>
+
+<%= link_to 'Add an animal', new_farm_animal_path(@farm) %>
+

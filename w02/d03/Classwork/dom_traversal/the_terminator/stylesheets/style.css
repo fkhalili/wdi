@@ -1,0 +1,29 @@
+@font-face {
+  font-family: Terminator;
+  src: url(../fonts/terminator.ttf);
+}
+
+html, body {
+  background-color: black;
+  color: lightcyan;
+  font-family: 'Terminator';
+  height:100%;
+  position: relative;
+}
+
+body {
+  background: url(../images/terminator_wallpaper.jpg) no-repeat;
+  background-size: 40% 100%;
+}
+
+ul { list-style: none; }
+ul li:before{ content:"-"; position:relative; left:-5px;}
+ul li{ text-indent:-5px; }
+
+.main {
+  height: 100%;
+  position: absolute;
+  top: 100px;
+  left: 690px;
+}
+

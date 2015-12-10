@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> <%= @attendee.first_name%> <%=@attendee.last_name%> </h1>
+    
+	<h2> Age: <%= @attendee.age %></h2>
+
+	<% if @attendee.likes_beer == true %>
+  	 <h2> Likes Beer </h2>
+  	 <% else %>
+  	 <h2>Doesn't Like Beer </h2>
+
+ 	<% end %>
+
+
+  <%= link_to "Edit", edit_attendee_path %>
+
+  <%= link_to "Delete", attendee_path, method: :delete %><br><br>
+  <a href="/attendees">Home</a>
+
+
+</body>
+</html>

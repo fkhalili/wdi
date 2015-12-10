@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Detail about a disgusting affir shame shame </h1>
+    
+    The affair titled:
+  <h1> <%= @affair.name %> </h1>
+
+    Went down at :
+  <h2> <%= @affair.location %> </h2>
+
+  <%= link_to 'Edit this horrifble affair', edit_affair_path %>
+
+  <%= link_to 'Delete meeeee', affair_path, method: :delete %>
+  
+</body>
+</html>

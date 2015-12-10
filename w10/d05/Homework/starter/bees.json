@@ -1,0 +1,28 @@
+{
+  "hives": [
+    {
+      "id": 1,
+      "num_bees": 100,
+      "location": "Bay Ridge",
+      "notes": "elderflower honey probably"
+    },
+    {
+      "id": 2,
+      "num_bees": 78,
+      "location": "Carroll Gardens",
+      "notes": "all this honey is from m&m's"
+    },
+    {
+      "id": 3,
+      "num_bees": 60,
+      "location": "Brighton Beach",
+      "notes": "fond memories of the sea"
+    },
+    {
+      "id": 4,
+      "num_bees": 120,
+      "location": "Sheepshead Bay",
+      "notes": "I use this honey in my special brand of mustache balm"
+    }
+  ]
+}

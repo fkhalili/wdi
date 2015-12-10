@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>DBZ</title>
+</head>
+<body>
+	<h1><%=row.name%></h1>
+	<ul>
+		<% if (row.dead === 0) {%>
+		<li>Alive</li>
+		<%}%>
+		<% if (row.dead === 1) {%>
+		<li>Dead</li>
+		<%}%>
+		<% if (row.team_id === 1) {%>
+		<li>Good Guy</li>
+		<%}%>
+		<% if (row.team_id === 2) {%>
+		<li>Bad Guy</li>
+		<%}%>
+	
+
+	</ul>
+	<form method="POST" action="/dbz/<%=row.id%>?_method=DELETE">
+		<input type="submit" value="delete">
+	</form>
+	<a href="/dbz/<%=row.id%>/edit">Edit</a>
+	<a href="/dbz">Return</a>
+</body>
+</html>

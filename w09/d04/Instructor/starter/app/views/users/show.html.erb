@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Hey there, <%= @current_user.email %>! How do you look at oyurself in the mirror???!!! </h1>
+
+  <h2> Here are your affairs :) </h2>
+
+  <% @affairs.each do |affair| %>
+    <h3> <%= affair.name %> </h3>
+    <h3> <%= affair.description %> </h3>
+  <% end %>
+  
+</body>
+</html>

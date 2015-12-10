@@ -1,0 +1,45 @@
+/*body {
+  background: #999;
+}*/
+
+/* Defaults for the boxes */
+.box {
+  height: 250px;
+  background-size: cover;
+}
+
+/* Box background images */
+.uno {
+  background-image: url('./pattern-library.jpg');
+}
+.dos {
+  background-image: url('./pattern-triangles.jpg');
+}
+.tres {
+  background-image: url('./pattern_square.jpg');
+}
+.cuatro {
+  background-image: url('./pattern_egypt.png');
+}
+.cinco {
+  background-image: url('./pattern_chevron.png');
+}
+.seis {
+  background-image: url('./pattern-paisley.jpg');
+}
+
+/* Media queries! These change the heights of each of my boxes at different window widths. */
+
+/* Will only trigger if the window is narrower than 1024px */
+@media (max-width: 1023px) {
+  .box {
+    height: 200px;
+  }
+}
+
+/* Will only trigger if the window is narrower than 568px */
+@media (max-width: 567px) {
+  .box {
+    height: 100px;
+  }
+}

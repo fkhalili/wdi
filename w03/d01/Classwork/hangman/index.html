@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	
+
+	<head>
+	<title>Hangman</title>
+	<header>
+		<h1>Hangman</h1>
+	</header>
+
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	
+	</head>
+
+	<body>
+	<div class="names">
+		<ul id="teamNames">
+			<li>Steven</li>
+			<li>Ashley</li>
+			<li>Riaz</li>
+			<li>Daniel</li>
+		</ul>
+	</div>
+	<div class="counter"></div> 
+    <div class="buttons">
+		<button class="start">Start Game</button>
+		<input class="letter" placeholder="Guess a letter here"></input>
+		<button class="submit">Submit</button>
+	<div class="secretWord"></div>
+    </div>
+   
+	
+	<div class="guessed">
+		<ul id="guessedLetters"></ul>
+	</div>
+
+
+	<script src="./main.js"></script>
+	</body>
+
+
+</html>

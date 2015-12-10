@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1> Magical World of Forms </h1>
+  <h2> Form 1. Below is one form, Consisting of Text Inputs </h2>
+
+  <form method="GET" action="/forminput">
+    <label for="name-form">Enter Your Name:</label>
+    <input type="text" name="myname" id="name-form">
+    <input type="submit">
+  </form>
+
+  <h2> Form 2. Below is actually a separate form, with a select input </h2>
+  <form method="GET" action="/selection">
+    <label for="select-form">Enter Your Selection:</label>
+    <select name="numbers" id="select-form">
+      <option value="10"> 10 </option>
+      <option value="20"> 20 </option>
+      <option value="30"> 30 </option>
+    </select>
+    <input type="submit">
+  </form>
+
+  <h2> Form 3. Below is another form, this time with radio buttons</h2>
+  <form method="GET" action="/radios">
+   <input type="radio" name="sex" id="male-radio" value="male">
+   <label for="male-radio">Male</label><br>
+   <input type="radio" name="sex" id="female-radio" value="female">
+   <label for="female-radio">Female</label><br>
+   <input type="submit">
+  </form>
+
+  <h2> Form 4 - The Megaform.</h2>
+  <form method="GET" action="/megaform">
+    
+    <h2>Enter your name</h2>
+    <input type="text" name ="name" id="namer">
+
+    <h2>Select your favorite subject in school</h2>
+    <select name="subject" id="subjecter">
+      <option value="wdi">WDI</option>
+      <option value="lunch">Lunch</option>
+    </select>
+
+    <h2>Select your favorite falvor of ice-cream</h2>
+    <input type="radio" name="flavor" id="chocolate" value="chocolate">
+    <label for="chocolate">Chocolate</label>
+    <input type="radio" name="flavor" id="strawberry" value="strawberry">
+    <label for="strawberry">Strawberry</label>
+    <input type="radio" name="flavor" id="vanilla" value="vanilla">
+    <label for="vanilla">Vanilla</label>
+
+    <input type="submit">
+  </form>
+
+</body>
+</html>

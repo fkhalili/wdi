@@ -1,0 +1,29 @@
+{
+  "hives": [
+    {
+      "id": 1,
+      "num_bees": 100,
+      "location": "Bay Ridge",
+      "notes": "elderflower honey probably"
+    },
+    {
+      "id": 2,
+      "num_bees": 78,
+      "location": "Carroll Gardens",
+      "notes": "all this honey is from m&m's",
+      "numBees": 78
+    },
+    {
+      "id": 4,
+      "num_bees": 120,
+      "location": "Sheepshead Bay",
+      "notes": "I use this honey in my special brand of mustache balm"
+    },
+    {
+      "location": "Bushwick",
+      "notes": "These bees are pushing out the natives and making beeespoke honey",
+      "num_bees": 99,
+      "id": 5
+    }
+  ]
+}

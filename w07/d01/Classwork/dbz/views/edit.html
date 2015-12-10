@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>DBZ</title>
+
+</head>
+<body>
+	<form method="POST" action="/dbz/<%=row.id%>?_method=PUT">
+	Name :
+	<input type="text" name="name" value="<%=row.name%>">
+	<ul>
+		<li>Dead : </li>
+		<select name="dead">
+			<option value="0">Alive</option>
+			<option value="1">Dead</option>
+		</select>
+		<li>Team : </li>
+		<select name="team">
+			<option value="1">Good</option>
+			<option value="2">Bad</option>
+		</select><br><br>
+	</ul>
+		<a href="/dbz">Return</a>
+		<input type="submit">
+	</form>
+</body>
+</html>

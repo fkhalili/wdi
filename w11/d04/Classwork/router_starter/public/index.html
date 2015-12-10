@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Shop</title>
+
+<!-- Styles -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+  <link rel="stylesheet" href="style.css">
+
+<!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone.js"></script>
+  <script src="./app.js"></script>
+
+</head>
+<body>
+
+
+<div class="container">
+  <div class="row">
+    <nav class="twelve columns">
+      <h2>Delicious Coffeestuffs Menu</h2>
+      <a class="button" href="#coffees">Coffees</a>
+      <a class="button" href="#about_me">About</a>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="five columns">
+      <img src="./img/coffee.png">
+    </div>
+    <div id="content" class="seven columns">
+    <!-- Collection view's element will be appended in here -->
+    <!-- Template -->
+    <script type="text/template" id="coffee-template">
+      <tr>
+         <td><%= name %></td>
+        <td><%= price %></td>
+      </tr>
+    </script>
+    <!-- end template -->
+      
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

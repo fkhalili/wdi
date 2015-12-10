@@ -1,0 +1,15 @@
+<html>
+<head>
+	<title>Fruit</title>
+</head>
+<body>
+	<h1>Fruits Home Page</h1>
+
+	<ol>
+		<% data.fruits.forEach(function(element) { %>
+		<li><a href="fruits/<%=element.id%>"><%=element.type%></a></li>
+			<% }) %>
+	</ol><br>
+		<a href="fruits/new">Add new fruit</a>
+</body>
+</html>

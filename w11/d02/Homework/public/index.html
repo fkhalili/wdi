@@ -1,0 +1,51 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <!-- adding styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <link rel = "stylesheet" type = "text/css" href = "./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div>Driving Music</div>
+      <img src = "./images/mk64start.jpg" />
+    </header>
+
+    <h3>Add a racer here:</h3>
+
+    <!-- form to add character -->
+    <div id = "addCharacterForm">
+      <input type="text" id="newCharacterName" placeholder="character name">
+      <input type="text" id="newCharacterWeight" placeholder="character weight class">
+      <input type="text" id="newCharacterImageUrl" placeholder="character image">
+      <input type="text" id="newCharacterImageDrivingMusic" placeholder="driving music">
+
+      <button id = "addNewCharacter">Add Driver!</button>
+    </div>
+
+
+    <ul class = "character-list">
+    </ul>
+
+    <script type="text/template" id="list-template">
+      <h1><%=name%></h1>
+      <h2>Weight Class: <%=weightClass%></h2>
+      <img src=<%=imageUrl%>>
+      <h3> <%= drivingMusic %> </h3>
+      <button class="delete"> delete </button>
+    </script>
+
+
+
+    <!-- include jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    <!-- include Underscore -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+
+    <!-- include Backbone -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone.js"></script>
+  </body>
+<script type="text/javascript" src="./main.js"></script>
+</html>

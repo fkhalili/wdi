@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "title": "Hello World",
+      "author": "Fritz",
+      "content": "Hello there world, how are you? ",
+      "id": 1
+    },
+    {
+      "title": "blurarararar",
+      "author": "AFDSDSFSF",
+      "content": "atdssdfasdfasdf",
+      "id": 2
+    },
+    {
+      "title": "ojnojn",
+      "author": "jn",
+      "content": "ojn",
+      "id": 3
+    }
+  ]
+}

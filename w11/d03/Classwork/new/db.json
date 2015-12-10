@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "title": "jeeeeeer",
+      "author": "dreeee",
+      "content": "heellllooo",
+      "id": 1
+    },
+    {
+      "author": "shmarrs",
+      "content": "shmarr",
+      "title": "shmarrr",
+      "id": 2
+    }
+  ]
+}

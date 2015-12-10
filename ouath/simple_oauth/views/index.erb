@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1> Hello, welcome to Oauth playground </h1>
+	<% if session["access_token"]  %>
+	Sweet! You logged in through github! Here is your github avatar!
+	<img src=<%= @image_url %>/>
+	<a href="/logout"> logout </a>
+	<% else %>
+	<a href="<%= @url %>"> login with github </a>
+	<% end %>
+
+</body>
+</html>

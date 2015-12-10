@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mr. Edible Starchy Tuber Head</title>
+  
+  <link rel="stylesheet" href="./style.css">
+
+  <style>
+    #potato {
+      height: 500px;
+      width: 500px;
+      background: url('./img/potato.jpg');
+      background-size: cover;
+    }
+    .feature {
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      width: 500px;
+      height: 500px;
+      margin-bottom: 3px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone.js"></script>
+  <script src="./potato.js"></script>
+</head>
+<body>
+  <div id="potato">
+
+    <script type="text/template" data-template="potato-template">
+      <div class="feature" id="eyes" style="background: url('<%= model.eyes %>'); background-size: contain;"></div>
+      <div class="feature" id="nose" style="background: url('<%= model.nose %>'); background-size: contain;"></div>
+      <div class="feature" id="mouth" style="background: url('<%= model.mouth %>'); background-size: contain;"></div>
+      <div class="feature" id="hat" style="background: url('<%= model.hat %>'); background-size: contain;"></div>
+    </script> 
+
+  </div>
+
+  <label for="hat-select">Select Hair:</label>
+  <select id="hat-select">
+    <option value="./img/hair1.png">1</option>
+    <option value="./img/hair2.png">2</option>
+    <option value="./img/hair3.png">3</option>
+  </select>
+
+<!-- Example radio buttons -->
+
+<!--   <input type="radio" name="hat-select" value="./img/hair1.png" checked>
+  <input type="radio" name="hat-select" value="./img/hair2.png">
+  <input type="radio" name="hat-select" value="./img/hair3.png"> -->
+
+<!-- end example -->
+
+  <label for="eyes-select">Select Eyes:</label>
+  <select id="eyes-select">
+    <option value="./img/eyes1.png">1</option>
+    <option value="./img/eyes2.png">2</option>
+    <option value="./img/eyes3.png">3</option>
+  </select>
+
+  <label for="nose-select">Select Nose:</label>
+  <select id="nose-select">
+    <option value="./img/nose1.png">1</option>
+    <option value="./img/nose2.png">2</option>
+    <option value="./img/nose3.png">3</option>
+  </select>
+
+  <label for="mouth-select">Select Mouth:</label>
+  <select id="mouth-select">
+    <option value="./img/mouth1.png">1</option>
+    <option value="./img/mouth2.png">2</option>
+    <option value="./img/mouth3.png">3</option>
+  </select>
+
+</body>
+</html>

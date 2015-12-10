@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="./style.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone-min.js"></script>
+  <title>BB Blog</title>
+</head>
+<body>
+
+
+
+
+  <div id="blog-container">
+    <h1> Fascinating Blog Entries </h1>
+    <div id="blog-list">
+    </div>
+  </div>
+  
+  <form id="entry-form">
+  Add a Post!
+
+    Author
+    <input type="text" id="author">
+    Title
+    <input type="text" id="title">
+    Content
+    <input type="text" id="content">
+
+    <button id="add-button"> add </button>
+
+  </form>
+
+  <script type="text/template" id="main-template">
+
+    <h1> <%= title %> </h1>
+    <h2> <%= content %> </h1>
+    <button class="color"> change my color </button>
+    <button class="delete"> delete me </button>
+    <button class="edit"> edit me </button>
+
+
+  </script>
+
+  <script type="text/template" id="edit-template">
+    <div class="edit-form">
+    </br> </br>
+    New Title
+    <input type="text" id="edit-title">
+
+    New Author
+    <input type="text" id="edit-author">
+
+    New Content
+    <input type="text" id="edit-content">
+
+    <button class="edit-button"> Edit </button>
+    </div>
+
+
+  </script>
+
+  
+</body>
+  <script type="text/javascript" src="./main.js"></script>
+</html>

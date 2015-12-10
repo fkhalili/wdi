@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS entries;
+CREATE TABLE entries (
+  id INTEGER PRIMARY KEY,
+  name TEXT,
+  phone INTEGER
+);

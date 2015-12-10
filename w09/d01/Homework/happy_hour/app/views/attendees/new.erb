@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1> Happy Hour </h1>
+  <p> Brought to you by: General Assembly </p>
+
+  <%= form_for @attendee do |a| %>
+  	<%=a.text_field :first_name, placeholder: "First Name"%>  
+  	<%=a.text_field :last_name, placeholder: "Last Name"%>
+ 	<%=a.text_field :age, placeholder: "Age"%>
+    <%=a.text_field :likes_beer, placeholder: "Likes Beer? [true/false]"%>
+
+
+
+    <%=a.submit%>
+  <% end %>
+  
+   <a href="/attendees">Home</a>
+
+</body>
+</html>

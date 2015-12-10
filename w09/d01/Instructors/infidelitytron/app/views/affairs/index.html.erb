@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1> HERE COME THE AFFAIRS </h1>
+
+  <% @affairs.each do |affair| %>
+    <h2> <%= affair.name %> </h2>
+    <p> <%= affair.location %> </p>
+    <a href=<%="/affairs/" + affair.id.to_s %>> check this affair </a> 
+  <% end %>
+  
+</body>
+</html>

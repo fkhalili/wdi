@@ -1,0 +1,19 @@
+<form action='/users' method="POST">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>" />
+  <label>
+    Codename:
+    <input type="text" name="codename" />
+  </label>
+
+  <label>
+    Password:
+    <input type="password" name="password">
+  </label>
+
+  <label>
+    Real Name:
+    <input type="text" name="real_name" />
+  </label>
+
+  <button>Submit</button>
+</form>

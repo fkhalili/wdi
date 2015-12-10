@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ALl the blogs!</title>
+</head>
+<body>
+
+  <h1> Here they come!!!! </h1>
+
+  <% blogs.forEach(function(blog){ %>
+      <h2> <%= blog.myname %> </h2>
+      <h3 style="color:blue;"> <%= blog.mythoughts %> </h3>
+      <h4> here is my id, don't steal it <%= blog.id %> </h4>
+   <% }) %>
+  
+</body>
+</html>

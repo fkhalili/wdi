@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>welcome</h1>
+	<%= @affairs.each do |e| %>
+		<h1><%=e.name%></h1>
+		<h2><%=e.location%></h2>
+		<a href="/affairs/<%=e.id.to_i%>">Click here</a>
+	<%	 end %>
+</body>
+</html>

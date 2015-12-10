@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1> Magical World of Forms </h1>
+  <h2> Form 1. Below is one form, Consisting of Text Inputs </h2>
+
+  <form method="GET" action="/forminput">
+    <label for="name-form">Enter Your Name:</label>
+    <input type="text" name="myname" id="name-form">
+    <input type="submit">
+  </form>
+
+  <h2> Form 2. Below is actually a separate form, with a select input </h2>
+  <form method="GET" action="/selection">
+    <label for="select-form">Enter Your Selection:</label>
+    <select name="numbers" id="select-form">
+      <option value="10"> 10 </option>
+      <option value="20"> 20 </option>
+      <option value="30"> 30 </option>
+    </select>
+    <input type="submit">
+  </form>
+
+  <h2> Form 3. Below is another form, this time with radio buttons</h2>
+  <form method="GET" action="/radios">
+   <input type="radio" name="sex" id="male-radio" value="male">
+   <label for="male-radio">Male</label><br>
+   <input type="radio" name="sex" id="female-radio" value="female">
+   <label for="female-radio">Female</label><br>
+   <input type="submit">
+  </form>
+
+  <h2> Form 4 - The Megaform. Coming soon </h2>
+
+  <form method="GET" action="/megaform">
+    <input type="submit">
+    <label for="student-name"> your name </label>
+    <input type="text" name="student-name" id="student-name">
+    <label for="favorite-subject">  your fave subject</label>
+    <select name="favorite-subject" id="favorite-subject">
+      <option value="tcp"> TCP </option>
+      <option value="HTTP Module"> HTTP Module </option>
+    </select>
+    <input type="radio" name="ice-cream" value="green" id="green-radio">
+    <label for="green-radio"> Green </label>
+    <input type="radio" name="ice-cream" value="blue" id="blue-radio">
+    <label for="blue-radio"> Blue </label>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+<ul>
+  <% @users.each do |user| %>
+    <li><a href="/users/<%= user.codename %>"><%= user.codename %></a></li>
+  <% end %>
+</ul>

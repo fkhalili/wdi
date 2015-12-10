@@ -1,0 +1,49 @@
+
+
+.smallbox{
+  height: 100px;
+  width: 100px;
+  bottom:500px;
+  position: absolute;
+}
+.medbox{
+  height: 250px;
+  width: 250px;
+
+}
+.bigbox {
+  height: 500px;
+  width: 250px;
+  bottom:500px;
+  left:250px;
+  position:relative;
+}
+
+.blue{
+  background-color: blue;
+  bottom:100px;
+
+}
+
+.yellow{
+  background-color: yellow;
+}
+
+.orange{
+  background-color: orange;
+}
+
+.pink{
+  background-color: pink;
+}
+.red {
+  background-color:red;
+}
+
+
+#container{
+  border: 1px solid black;
+  height: 1000px;
+  width: 1000px;
+  position: relative;
+}
